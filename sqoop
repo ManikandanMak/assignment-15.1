@@ -1,0 +1,2 @@
+sqoop import --connect jdbc:mysql://localhost/sqoop --table emp_data --username root --password acadgild --hive-import --target-dir /user/acadgild/sqoop -m 1
+
